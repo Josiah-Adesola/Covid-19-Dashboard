@@ -5,9 +5,9 @@
 
 # PROBLEM STATEMENT
 
-COVID-19 was one of the greatest pandemic in history that ravaged the whole world, and kept it at a stand still. Everyone was looking for good metrics. Questions like
+COVID-19 was one of the greatest pandemics in history that ravaged the whole world and kept it at a standstill. Everyone was looking for good metrics. Questions like
 
-How many people have contacted the virus?
+How many people have contracted the virus?
 
 How many death cases do we have in my country?
 
@@ -31,9 +31,7 @@ This data was gotten from the Centre For Systems Science and Engineering (CSSE) 
 
 # DATA TRANSFORMATION
 
-I performed data transformation with Power Query in Microsoft Excel, it was a fun progress. I merged the confirmed, recovered and death cases together, made them individual columns.
-The 872+ columns were transferred to rows for easy analysis. 
-Then I combined all the 3 queries to a single query called the Consolidated Data.
+I performed data transformation with Power Query in Microsoft Excel, it was fun progress. I merged the confirmed, recovered and death cases together, and made their individual columns. The 872+ columns were transferred to rows for easy analysis. Then I combined all the 3 queries into a single query called the Consolidated Data.
 
 ------------------------------------------------
 
@@ -52,13 +50,19 @@ I also used slicers to easily make the dashboard interactive.
 
 This is a very interesting project, I was able to cull out insights easily.
 
-1. We had less death cases to confirmed cases.
+1. We had fewer death cases than confirmed cases.
+
 2. USA, INDIA, BRAZIL, FRANCE and UK are the countries with the top cases sadly.
-3. We had more cases in 2021 than 2020.
-4. India championed for the highest recovered cases, that's worthy of note.
-5. US, Brazil, Inida, Mexico, Russia had the highest date numbers sadly.
-6. We had the highest confirmed cases in May, and the lowest in January, maybe the weather could be a factor.
-7. North Korea had the lowerst confirmed case
+
+3. We had more cases in 2021 than in 2020.
+
+4. India championed the highest recovered cases, that's worthy of note.
+
+5. US, Brazil, India, Mexico, and Russia had the highest date numbers sadly.
+
+6. North Korea had the lowest confirmed case
+
+7. We had the highest confirmed cases in May, and the lowest in January, maybe the weather could be a factor.
 
 ![image](https://user-images.githubusercontent.com/59745353/174591091-0df1bd68-3741-4e9e-ab41-e9571537c11b.png)
 
